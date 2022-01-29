@@ -9,6 +9,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Header starts */
 header {
     padding: 20px;
     background-color: #39a6b2;
@@ -41,7 +42,9 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/* Header ends */
 
+/* Footer starts */
 footer {
     background: #fce128;
     width: 100%;
@@ -64,6 +67,7 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* Footer ends */
 
 section {
     padding: 60px;
@@ -121,18 +125,28 @@ section {
 }
 /* Hero style ends */
 
-/* What we do starts */
-.intro {
-    text-align: center;
-}
-
-.intro h2 {
+/* Step border start */
+.section-title {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid #fce128;
+    border-bottom: 3px solid;
     display: inline-block;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+/* Step border end */
+
+/* What we do starts */
+.intro {
+    text-align: center;
 }
 
 .intro p {
@@ -143,3 +157,36 @@ section {
     margin: 0 auto;
 }
 /* What we do ends */
+
+/* what you do starts */
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+/* What you do ends */
+
+/* Step style starts */
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+/* Step style ends */
