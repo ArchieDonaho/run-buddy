@@ -267,14 +267,20 @@ section {
     color: white;
   }
 
-.contact-info address {
+.contact-info address, .contact-info p {
     font-style: normal;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.contact-info a {
+    color: #fce138;
 }
 
 .contact-info h3 {
     font-size: 32px;
     color: #fce138;
-
 }
 
 
