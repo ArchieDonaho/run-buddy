@@ -250,9 +250,6 @@ section {
     color: #fce138;
 }
 
-.contact-info {
-}
-
 .contact-info iframe {
     width: 400px;
     height: 400px;
@@ -274,14 +271,10 @@ section {
     margin: 20px 0;
 }
 
-.contact-info a {
+.contact-info a, .contact-info h3 {
     color: #fce138;
 }
 
-.contact-info h3 {
-    font-size: 32px;
-    color: #fce138;
-}
 
 
 /* reach out ends */
